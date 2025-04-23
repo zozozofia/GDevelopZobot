@@ -1,0 +1,32 @@
+{
+    "name": "User123Game",
+    "scenes": [
+        {
+            "name": "GameScene",
+            "objects": [
+                {
+                    "name": "Player1",
+                    "type": "Sprite",
+                    "x": 50,
+                    "y": 200,
+                    "image": "hero1.png"
+                },
+                {
+                    "name": "AIPlayer1",
+                    "type": "Sprite",
+                    "x": 150,
+                    "y": 200,
+                    "image": "hero2.png"
+                },
+                {
+                    "name": "AIPlayer2",
+                    "type": "Sprite",
+                    "x": 250,
+                    "y": 200,
+                    "image": "hero3.png"
+                }
+            ],
+            "events": []
+        }
+    ]
+}
